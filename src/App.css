@@ -1,0 +1,39 @@
+@font-face {font-family: "Pokemon"; 
+  src: url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.eot"); 
+  src: url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.eot?#iefix") format("embedded-opentype"), 
+       url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.woff2") format("woff2"), 
+       url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.woff") format("woff"), 
+       url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.ttf") format("truetype"), 
+       url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.svg#Pokemon") format("svg");
+      } 
+
+
+body {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  background: linear-gradient(-90deg, #FDBB2D 0%, #441c5c 100%);
+
+    
+}
+
+h1 {
+	font-size: 200px;
+	text-align: center;
+	/* text-transform: uppercase; */
+	background: url(Pika.png);
+  font-family: 'Pokemon', sans-serif;
+    -webkit-background-clip: text;
+	color: transparent;
+	animation: text-background 25s  linear infinite;
+  letter-spacing: 7px;
+}
+
+@keyframes text-background {
+
+	from { background-position: 0 0 }
+
+	to { background-position: 100% 100% }
+
+} 
